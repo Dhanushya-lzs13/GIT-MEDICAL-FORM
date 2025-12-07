@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+input:hover{
+    transform: scale(1.1);
+    cursor:pointer;
+}
+h1{
+    text-align: center;
+    font-family:algerian;
+}
+.details{
+    position:absolute;
+    left:250px;
+}
+.appointment{
+   position: absolute;
+   right:200px;
+   top:80px;
+}
+.button{
+    
+    position:fixed;
+    bottom:50px;
+    right:550px;
+  
+}
+
+
+
+    </style>
+</head>
+<body>
+    <form>
+        <h1> MEDICAL APPOINTMENT</h1>
+
+         <div class="details">
+        <h2> PERSONAL DETAILS </h2>
+        FIRST NAME : <input type="text"><br> <br>
+        LAST NAME :  <input type="text"><br><br>
+        GENDER : <input type="radio" name="GENDER">MALE
+                 <input type="radio" name="GENDER">FEMALE<br><br>
+        DATE OF BIRTH: <input placeholder="DD/MN/YR"><br><br>
+        AGE: <input type="number"> <br><br>
+        ADDRESS: <input >
+
+        <h2> CONTACT DETAILS </h2>
+        CONTACT NUMBER: <input> <br><br>
+        EMAIL ID: <input type="email">
+        </div>
+        
+    
+        <div class="appointment">
+        <h2> APPOINTMENT DETAILS </h2> 
+        APPOINTMENT DATE: <input  placeholder="DD/MN/YR"><br><br>
+        APPOINTMENT TIME:<input> <br><br>
+        REASON:
+        <select>
+            <option> Heart Diseases </option>
+            <option> Diabetes</option>
+            <option> Hypertension </option>
+            <option> Asthma </option>
+            <option> Arthritis </option>
+            <option> Cancer </option>
+            <option> Stroke </option>
+        </select>
+        <br><br>
+        PREFFERED DAY: <br>
+                       <input type="checkbox">Monday<br>
+                       <input type="checkbox">Tuesday<br>
+                       <input type="checkbox">Wednesday<br>
+                       <input type="checkbox">Thursday<br>
+                       <input type="checkbox">Friday<br>
+                       <input type="checkbox">Saturday<br>
+                       <input type="checkbox">Sunday<br><br>
+        ANY INSURANCE:<input>
+        </div>
+        <p class="button">
+            <button> MAKE APPOINTMENT </button>
+        </p>
+
+           </form>
+</body>
+</html>
